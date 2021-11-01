@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(11, 5, 43);
+}
+
+#main {
+    background-image: url(./images/space1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid rgb(24, 15, 73);
+    border-radius: 10px;
+    height: 795px;
+    color: whitesmoke;
+    margin: 50px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    text-shadow: 5px 5px 5px rgb(162, 105, 219);
+}
+
+#header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#info {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-family: cursive;
+    color: rgb(238, 219, 255);
+    text-shadow: 3px 3px 3px rgb(160, 130, 187);
+}
+
+#img_help {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#help {
+    font-family: cursive;
+    font-size: 2rem;
+    color: #c5371a;
+    text-shadow: 3px 3px 3px whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 1.4rem;
+    font-family: cursive;
+    color: rgb(238, 219, 255);
+    text-shadow: 3px 3px 3px rgb(71, 12, 122);
+}
+
+.text {
+    height: 92px;
+    width: 92px;
+    border: 2px solid rgb(51, 51, 51);
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+.button {
+    background-image: url(./images/come-on.jpg);
+    width: 100px;
+    height: 100px;
+    color: rgba(22, 44, 55, 0);
+    border-radius: 5px;
+}
+
+#result {
+    font-size: 1.4rem;
+    font-family: cursive;
+    color: rgb(238, 219, 255);
+    text-shadow: 3px 3px 3px rgb(71, 12, 122);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tryagain {
+    font-size: 1.5rem;
+    /* width: 50px;
+    height: 50px; */
+    color: whitesmoke;
+    background-color: rgb(4, 109, 170);
+    border-radius: 5px;
+}
+
+#resultEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
